@@ -139,7 +139,6 @@ namespace EmployeeBindngSource
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 17;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -148,7 +147,6 @@ namespace EmployeeBindngSource
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 18;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -157,7 +155,6 @@ namespace EmployeeBindngSource
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 19;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label1
             // 
@@ -167,7 +164,6 @@ namespace EmployeeBindngSource
             this.label1.Size = new System.Drawing.Size(34, 13);
             this.label1.TabIndex = 20;
             this.label1.Text = "Name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -177,7 +173,6 @@ namespace EmployeeBindngSource
             this.label2.Size = new System.Drawing.Size(26, 13);
             this.label2.TabIndex = 21;
             this.label2.Text = "Age";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -187,7 +182,6 @@ namespace EmployeeBindngSource
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 22;
             this.label3.Text = "Phone";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // comboBox1
             // 
@@ -201,7 +195,6 @@ namespace EmployeeBindngSource
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(1301, 21);
             this.comboBox1.TabIndex = 23;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // departmentBindingSource
             // 
@@ -215,7 +208,6 @@ namespace EmployeeBindngSource
             this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 24;
             this.label4.Text = "Department";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // AddBtn
             // 

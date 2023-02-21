@@ -147,7 +147,6 @@ namespace EmployeeBindngSource
             // employeeBindingSource
             // 
             this.employeeBindingSource.DataSource = typeof(EmployeeBindngSource.Model.Employee);
-            this.employeeBindingSource.CurrentChanged += new System.EventHandler(this.employeeBindingSource_CurrentChanged);
             // 
             // departmentBindingSource
             // 

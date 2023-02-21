@@ -34,17 +34,8 @@ namespace EmployeeBindngSource
             emp = employeeBindingSource.DataSource as Employee;
             var emp2 = db.Employees.Where(x => x.EmpId == emp.EmpId).First();
             db.Entry(emp).State = EntityState.Modified;
-
-
             db.SaveChanges();
             MessageBox.Show("Recored Edit");
-
-        }
-
-        
-
-        private void employeeBindingSource_CurrentChanged(object sender, EventArgs e)
-        {
 
         }
     }
